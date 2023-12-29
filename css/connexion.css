@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    margin: 0;
+}
+
+.grande_div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+}
+.grande_div div{
+    height: 654px;
+}
+
+.photo{
+    background-color:#B6D2F1;
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 120px;
+}
+
+.connexion h2{
+    color: #B6D2F1;
+    margin-left:140px;
+    position: absolute;
+    
+}
+#ps , #mp,#email{
+    width: 80%;
+    height: 70px;
+    border-radius: 7px;
+    border-color: #B6D2F1;
+    margin-top: 50px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.connexion form label{
+    margin-left: 20px;
+    position: absolute;
+    margin-top:40px ;
+    color: #B6D2F1;
+    font-size: 25px;
+}
+#submit{
+    margin-top: 60px;
+    margin-left: 20%;
+    background-color: #B6D2F1;
+    padding: 10px 40px;
+    border-radius: 15px;
+    color:#1686DF;
+    font-size: 15px;
+    border-color:#B6D2F1 ;
+}
+.connexion .mp2{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 35%;
+    color: #000;
+}
+.connexion .compte{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -200px;
+    color:#000;
+    text-decoration: none;
+}
+
+.connexion .contacter{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 2%;
+    color:#1686DF;
+}

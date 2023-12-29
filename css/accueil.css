@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B6D2F1;
+    width: 100%;
+    height: 80px;
+    font-weight: bold;
+}
+nav img{
+    width: 180px;
+    height: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 40px;
+    font-size: 20px;
+    color: #0A0430;
+}
+.connecter{
+    margin-right: -285px;
+    color:#1686DF ;
+    text-decoration: none;
+}
+.inscrire{
+    background-color: #1686DF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: none;
+    margin-right: 25px;
+}
+span{
+    color: #1686DF;
+}
+.grande_div{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    /* border: solid;
+    background-color: #1686DF; */
+    margin-top: 20px;
+    gap: 100px;
+    height: 500px;
+}
+.div_txt{
+    font-style: italic;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-left: 35px;
+   
+}
+.div_txt p{
+    font-size: 20px;
+    font-style: normal;
+    margin-top: 15px;
+}
+.div_img{
+    background-image: url(../image/homPc.svg);
+    background-repeat: no-repeat;
+}
+.cours{
+    background-color: #1686DF;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 25px;
+    border: none;
+    margin-top: 70px;
+}
